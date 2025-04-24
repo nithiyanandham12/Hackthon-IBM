@@ -91,10 +91,10 @@ if "video_confirmed" not in st.session_state:
     st.session_state.video_confirmed = False
 
 # UI starts here
-st.title("📞 Customer Care Challenge Arena")
+st.title("TaskGene Challenge Arena")
 if not st.session_state.test_started:
     st.markdown("""
-    Welcome, Support Agent! 🧑‍💼
+    Welcome, Rahul! 🧑‍💼
     Time to test and refresh your customer service skills.
 
     🧠 Powered by **IBM Granite**
