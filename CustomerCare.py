@@ -168,7 +168,7 @@ else:
         )
         st.success(f"🎉 You scored {score} out of {len(challenges)}")
 
-        if score >= 5:
+        if score >= 3:
             st.success("🏅 Congratulations! You've unlocked the **Customer care Intermediate** badge.")
             st.balloons()
 
