@@ -192,7 +192,7 @@ else:
         elif real_use == "No":
             st.info("📌 Got it. We’ll focus on more relevant skills in future challenges.")
         elif real_use == "Need to Think":
-            st.info("⏳ No worries. You can revisit skills anytime.")
+            st.info("")
 
         if st.button("🔁 Retake Challenge"):
             st.session_state.test_started = False
