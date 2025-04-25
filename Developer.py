@@ -86,7 +86,7 @@ def get_python_mcq_challenges():
 if not st.session_state.get("quiz_started", False):
     st.title("👨‍💻 DevSprint Challenge Arena")
     st.markdown("""
-    Welcome, Developer! 🧑‍💻 You're halfway through debugging legacy Python scripts.
+    Welcome, Vinay! 🧑‍💻 You're halfway through debugging legacy Python scripts.
     
     🧠 What if you didn’t have to do *everything* manually?
     
