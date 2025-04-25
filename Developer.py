@@ -93,7 +93,7 @@ if not st.session_state.get("quiz_started", False):
     This arena introduces you to **Prompt Engineering** — your new secret weapon ⚡  
     Let's see how much time and effort it can save you using tools like **IBM Granite AI**.
     """)
-    st.video("https://youtu.be/5RcVtEN7phE")  # Replace with your explainer video
+    st.video("https://youtu.be/IbVjxg9bHAw?si=rTi5O2OB5tDI8ecf")  # Replace with your explainer video
 
     if 'video_confirmed' not in st.session_state:
         st.session_state.video_confirmed = False
