@@ -1,4 +1,3 @@
-from dotenv import load_dotenv
 import os
 import requests
 import streamlit as st 
@@ -6,6 +5,7 @@ import plotly.express as px
 import pandas as pd
 import numpy as np
 import random
+from dotenv import load_dotenv
 
 # Load secrets from .env
 load_dotenv()
