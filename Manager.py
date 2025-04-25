@@ -5,12 +5,11 @@ import plotly.express as px
 import pandas as pd
 import numpy as np
 import random
-from dotenv import load_dotenv
 
-# Load secrets from .env
-load_dotenv()
-IBM_API_KEY = os.getenv("IBM_API_KEY")
-PROJECT_ID = os.getenv("PROJECT_ID")
+
+
+IBM_API_KEY = IBM_API_KEY
+PROJECT_ID = PROJECT_ID
 
 # Get IBM Access Token
 def get_ibm_access_token(api_key):
